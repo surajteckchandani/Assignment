@@ -58,7 +58,7 @@ public class UrlMappingServiceImpl implements UrlMappingService {
 	@Override
 	public UrlMapping getUrlMappingDetailByShortUrl(String shorturl) {
 		// TODO Auto-generated method stub
-		UrlMapping user = urlRepository.findByshortUrl(shorturl);
+		UrlMapping user = urlRepository.findBylongUrl(shorturl);
 		return user;
 	}
 	
