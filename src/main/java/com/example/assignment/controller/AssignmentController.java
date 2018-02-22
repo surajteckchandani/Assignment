@@ -123,6 +123,6 @@ public class AssignmentController {
 	 */
 	@RequestMapping(value = { "/403"})
 	public String errorPage(Model model) {
-		return "hello";
+		return "403";
 	}
 }
